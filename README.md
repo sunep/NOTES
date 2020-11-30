@@ -2,6 +2,8 @@
 
 Here I keep some notes that are practical.
 
+----
+
 ## Extract audio using FFmpeg
 
 To extract the audio stream without re-encoding:
@@ -12,6 +14,8 @@ To extract the audio stream without re-encoding:
   * -acodec copy says use the same audio stream that's already in there.
 
 Read the output to see what codec it is, to set the right filename extension.
+
+----
 
 ## Encoding HAP videos
 
