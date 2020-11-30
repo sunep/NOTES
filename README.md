@@ -17,29 +17,7 @@ Read the output to see what codec it is, to set the right filename extension.
 
 ----
 
-## Encoding HAP videos
-
-The Upcoming video player will only play HAP files, for this we need to use FFmpeg. The video engine is [The Demolition Media HAP player](https://vvvv.org/contribution/demolition-media-hap-player)
-
-### Adobe CC plugins
- for Adobe CC products these plugins are made for both mac and windows.
-
-#### Disguise One _Free OSS_
-[Disguise-One plugin](https://github.com/disguise-one/hap-encoder-adobe-cc)
-
-####  Jokyo HAP encoder _Commercial_
-
-Jokyo also have plugins for Adobe CC, but they cost money, they are supposed to be better than other existing solutions and are recommended by Demolition media who make the vvvv HAP player.
-
-[Jokyo HAP Encoder](https://jokyohapencoder.com/)  
-### FFmpeg _Free OSS_
-
-If you for whatever reason can't use the Adobe CC plugins, you can use FFmpeg.
-Use the install script to download, and install FFmpeg.
-
-    \install\install_FFmpeg.bat
-
-#### Using FFmpeg
+## Encoding HAP videos using FFmpeg
 Use the following commands in either CMD or Powershell to encode Hap videos.
 
 #### To encode HAP
