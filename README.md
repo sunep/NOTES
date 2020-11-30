@@ -15,6 +15,8 @@ To extract the audio stream without re-encoding:
 
 Read the output to see what codec it is, to set the right filename extension.
 
+[Source](https://stackoverflow.com/questions/9913032/how-can-i-extract-audio-from-video-with-ffmpeg)
+
 ----
 
 ## Encoding HAP videos using FFmpeg
