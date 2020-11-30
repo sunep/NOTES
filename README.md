@@ -1,6 +1,6 @@
 # NOTES
 
-Here I keep some notes that I find usefull.
+Notes that I find usefull.
 
 ----
 
