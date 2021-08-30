@@ -38,4 +38,5 @@ When encoding highresolution videos it’s recommended to use the so called chun
     ffmpeg -i INPUT_VIDEONAME -vcodec hap -format hap_q -chunks 8 NEW_HAP_Q_CHUNKED_VIDEONAME.mov
 
 This will convert the input movie to Hap Q encoded movie using 8 chunks, which means that the Hap plugin can decode the movie using 8 threads  imultaneously, giving a major performance gain, as long as the storage is able to provide needed throughput.
+
 [Source](https://www.dropbox.com/s/u2wiccg9ru1tx41/Hap%20Encoding%20Tips.pdf?dl=1)
